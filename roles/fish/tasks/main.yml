@@ -1,0 +1,28 @@
+---
+# file: ./fish/tasks/main.yml
+
+- block:
+
+  - block:
+    # fish to default
+    - name: "add fish"
+      shell: "echo '/usr/local/bin/fish' >> /etc/shells"
+      become: true
+
+    - name: "chenge default shell"
+      shell: "chsh -s /usr/local/bin/fish"
+      become: true
+
+    
+  - block:
+    # fish setting
+    - name: copy config.fish template
+      template:
+        src: config.fish.j2
+        dest: ~/.config/fish/config.fish
+        owner: nagamine
+        group: staff
+        mode: 0600
+
+  tags:
+    - fish

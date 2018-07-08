@@ -1,0 +1,17 @@
+---
+# file: ./macos/vars/main.yml
+
+settings:
+  - { domain: com.apple.dock, key: autohide, type: bool, value: TRUE }
+  - { domain: com.apple.dock, key: mineffect, type: string, value: scale }
+  - { domain: com.apple.dock, key: wvous-bl-corner, type: int, value: 2 }
+  - { domain: com.apple.dock, key: wvous-bl-modifier, type: int, value: 0 }
+  - { domain: com.apple.dock, key: wvous-br-corner, type: int, value: 3 }
+  - { domain: com.apple.dock, key: wvous-br-modifier, type: int, value: 0 }
+  - { domain: com.apple.dock, key: wvous-tl-corner, type: int, value: 5 }
+  - { domain: com.apple.dock, key: wvous-tl-modifier, type: int, value: 131072 }
+  - { domain: com.apple.dock, key: wvous-tr-corner, type: int, value: 4 }
+  - { domain: com.apple.dock, key: wvous-tr-modifier, type: int, value: 0 }
+  - { domain: com.apple.driver.AppleBluetoothMultitouch.trackpad, key: Clicking, type: bool, value: FALSE }
+  - { domain: com.apple.Siri, key: StatusMenuVisible, type: bool, value: FALSE }
+

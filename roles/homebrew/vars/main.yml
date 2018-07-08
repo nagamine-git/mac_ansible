@@ -1,0 +1,14 @@
+---
+# file: ./homebrew/vars/main.yml
+
+taps:
+  - homebrew/boneyard
+
+packages:
+  - { name: ansible, state: present }
+  - { name: fish, state: present }
+  - { name: ghq, state: present }
+  - { name: git, state: present }
+  - { name: mas, state: present } # mas-cli(mac apple store)
+  - { name: peco, state: present }
+  - { name: tree, state: present }

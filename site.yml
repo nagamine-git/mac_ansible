@@ -1,0 +1,16 @@
+---
+# file: site.yml
+
+# ---------------
+# localhost
+# ---------------
+- hosts: localhost
+  connection: local
+  gather_facts: yes
+  roles:
+    - homebrew
+    - homebrew_cask
+    - fish
+    - mas
+    - macos
+    - xcode

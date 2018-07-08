@@ -1,0 +1,5 @@
+---
+# file: ./mas/vars/main.yml
+
+packages:
+  - { id: 497799835, name: Xcode }
