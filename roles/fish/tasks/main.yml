@@ -13,9 +13,11 @@
       shell: "chsh -s /usr/local/bin/fish"
       become: true
 
-    
   - block:
     # fish setting
+    - name: "first run fish"
+      shell: "fish"
+
     - name: copy config.fish template
       template:
         src: config.fish.j2
