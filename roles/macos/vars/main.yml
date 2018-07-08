@@ -2,6 +2,10 @@
 # file: ./macos/vars/main.yml
 
 settings:
+  - { domain: Apple Global Domain, key: AppleAntiAliasingThreshold, type: int, value: 4 }
+  - { domain: Apple Global Domain, key: AppleInterfaceStyle, type: string, value: Dark }
+  - { domain: Apple Global Domain, key: InitialKeyRepeat, type: int, value: 15 }
+  - { domain: Apple Global Domain, key: KeyRepeat, type: int, value: 2 }
   - { domain: com.apple.dock, key: autohide, type: bool, value: TRUE }
   - { domain: com.apple.dock, key: mineffect, type: string, value: scale }
   - { domain: com.apple.dock, key: wvous-bl-corner, type: int, value: 2 }
