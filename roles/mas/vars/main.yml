@@ -2,4 +2,5 @@
 # file: ./mas/vars/main.yml
 
 packages:
-  - { id: 497799835, name: Xcode }
+  - { id: 417375580, name: BetterSnapTool }
+  - { id: 880565132, name: Focus Timer }
