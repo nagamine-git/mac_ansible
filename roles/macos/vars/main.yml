@@ -2,8 +2,9 @@
 # file: ./macos/vars/main.yml
 
 settings:
-  - { domain: Apple Global Domain, key: AppleEnableSwipeNavigateWithScrolls, type: int, value: 0 }
   - { domain: Apple Global Domain, key: AppleInterfaceStyle, type: string, value: Dark }
+  - { domain: Apple Global Domain, key: AppleEnableSwipeNavigateWithScrolls, type: int, value: 0 }
+  - { domain: Apple Global Domain, key: AppleKeyboardUIMode, type: int, value: 2 }
   - { domain: Apple Global Domain, key: com.apple.trackpad.scaling, type: float, value: 3 }
   - { domain: Apple Global Domain, key: InitialKeyRepeat, type: int, value: 15 }
   - { domain: Apple Global Domain, key: KeyRepeat, type: int, value: 2 }
