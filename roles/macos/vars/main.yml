@@ -2,8 +2,8 @@
 # file: ./macos/vars/main.yml
 
 settings:
-  - { domain: Apple Global Domain, key: AppleAntiAliasingThreshold, type: int, value: 4 }
   - { domain: Apple Global Domain, key: AppleInterfaceStyle, type: string, value: Dark }
+  - { domain: Apple Global Domain, key: com.apple.trackpad.scaling, type: float, value: 3 }
   - { domain: Apple Global Domain, key: InitialKeyRepeat, type: int, value: 15 }
   - { domain: Apple Global Domain, key: KeyRepeat, type: int, value: 2 }
   - { domain: com.apple.dock, key: autohide, type: bool, value: TRUE }
@@ -16,6 +16,6 @@ settings:
   - { domain: com.apple.dock, key: wvous-tl-modifier, type: int, value: 131072 }
   - { domain: com.apple.dock, key: wvous-tr-corner, type: int, value: 4 }
   - { domain: com.apple.dock, key: wvous-tr-modifier, type: int, value: 0 }
-  - { domain: com.apple.driver.AppleBluetoothMultitouch.trackpad, key: Clicking, type: int, value: 0 }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: Clicking, type: int, value: 1 }
   - { domain: com.apple.Siri, key: StatusMenuVisible, type: bool, value: FALSE }
-
+  - { domain: com.apple.universalaccess, key: reduceTransparency, type: int, value: 1 }
