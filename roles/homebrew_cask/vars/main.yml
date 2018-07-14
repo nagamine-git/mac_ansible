@@ -2,6 +2,7 @@
 # file: ./homebrew_cask/vars/main.yml
 
 packages:
+  - { name: 1password, state: present }
   - { name: avira-antivirus, state: present }
   - { name: dash, state: present }
   - { name: docker, state: present }
