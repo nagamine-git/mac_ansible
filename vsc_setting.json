@@ -1,0 +1,14 @@
+{
+  "editor.fontFamily": "Ricty, Ricty for Powerline, Andale Mono, Menlo, Monaco",  
+  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
+  "editor.renderWhitespace": "all",
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "Monokai",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "git.autofetch": true,
+  "files.autoSave": "off"
+}
